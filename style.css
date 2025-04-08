@@ -1,0 +1,20 @@
+body {
+background-color: white;
+}
+div{
+    display: flex;
+    height: 80px;
+    width: 100% ;
+    background-color: aqua;
+    font-size: larger;
+    div{
+        display: flex;
+        height: 40px;
+        width: 200px;
+        padding: 10px 25px;
+        background-color: brown;
+    }
+}
+h2{
+    background-color: blue;
+}
