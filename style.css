@@ -1,20 +1,39 @@
 body {
-background-color: white;
-}
-div{
-    display: flex;
-    height: 80px;
-    width: 100% ;
-    background-color: aqua;
-    font-size: larger;
-    div{
-        display: flex;
-        height: 40px;
-        width: 200px;
-        padding: 10px 25px;
-        background-color: brown;
+    background-color: white;
     }
-}
-h2{
-    background-color: blue;
-}
+    header {
+    background-color: grey;
+    padding: 20px 40px;
+    }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    }
+    .boton1 {
+    background-color: orange;
+    height: 65px;
+    width: 200px;
+    }
+    .boton2 {
+    background-color: white;
+    height: 15px;
+    width: 90px;
+    }
+    .boton3 {
+    background-color: orange;
+    height: 15px;
+    width: 90px;
+    }
+    nav {
+    background-color: lightgrey;
+    padding: 0px 150px;
+    }
+    .nav {
+    display: flex;
+    justify-content: space-between;
+    }
+    .menu1 {
+    background-color: darkslategrey;
+    height: 65px;
+    width: 150px;
+    }
