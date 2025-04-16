@@ -292,23 +292,22 @@ body {
     margin-top: 0px;
     margin-bottom: 10px;
     }
-    footer {
+    .footer {
     background-color: gray;
-    padding: 100px 0px;
+    padding: 0px 0px;
     display: flex;
-    justify-content: space-between;
-    align-items: center
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
     }
-    .artfoot1 {
-    background-color: gold;
-    height: 50px;
-    width: 100px;
-    margin-right: 125px;
-    padding: 30px 50px;
+    .artfoot1, .artfoot2, .artfoot3, .artfoot4 {
+    background-color: gray;
+    width: 200px;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
     }
     .footer1-1 {
     background-color: lightgrey;
@@ -338,17 +337,6 @@ body {
     margin-top: 0px;
     margin-bottom: 10px;
     }
-    .artfoot2 {
-    background-color: red;
-    height: 50px;
-    width: 100px;
-    margin-right: 125px;
-    padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    }
     .footer2-1 {
     background-color: lightgrey;
     height: 6px;
@@ -377,17 +365,6 @@ body {
     margin-top: 0px;
     margin-bottom: 10px;
     }
-    .artfoot3 {
-    background-color: red;
-    height: 50px;
-    width: 100px;
-    margin-right: 125px;
-    padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    }
     .footer3-1 {
     background-color: lightgrey;
     height: 6px;
@@ -415,17 +392,6 @@ body {
     width: 80px;
     margin-top: 0px;
     margin-bottom: 10px;
-    }
-    .artfoot4 {
-    background-color: red;
-    height: 50px;
-    width: 100px;
-    margin-right: 125px;
-    padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
     }
     .footer4-1 {
     background-color: lightgrey;
