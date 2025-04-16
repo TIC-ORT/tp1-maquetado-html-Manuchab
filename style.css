@@ -81,7 +81,7 @@ body {
     background-color: gray;
     height: 120px;
     width: 180px;
-    margin-right: 250px;
+    margin-right: 350px;
     padding: 30px 50px;
     }
     .barranaranja {
@@ -155,77 +155,303 @@ body {
     background-color: rgb(228, 228, 228);
     padding: 10px 0px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     }
     .cuadradito {
     background-color: rgb(247, 247, 247);
     height: 200px;
     width: 300px;
-    margin-right: 180px;
+    margin-right: 125px;
     padding: 30px 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     }
     .cuadradogris2 {
     background-color: grey;
-    height: 120px;
-    width: 120px;
-    margin-bottom: 10px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 40px;
     }
     .barragris2 {
     background-color: grey;
-    height: 10px;
+    height: 15px;
     width: 180px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
     .barragrisc4 {
     background-color: lightgrey;
     height: 10px;
     width: 180px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
     .barragrisc5 {
     background-color: lightgrey;
     height: 10px;
     width: 180px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
     .barragrisc6 {
     background-color: lightgrey;
     height: 10px;
-    width: 80px;
-    margin-bottom: 35px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
     .cuadradito2 {
     background-color: rgb(247, 247, 247);
     height: 200px;
     width: 300px;
-    margin-right: 180px;
+    margin-right: 125px;
     padding: 30px 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     }
     .cuadradorojo {
     background-color: rgb(255, 115, 115);
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 40px;
+    }
+    .barragris3 {
+    background-color: grey;
+    height: 15px;
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .barragrisc7 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .barragrisc8 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .barragrisc9 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
     .cuadradito3 {
     background-color: rgb(247, 247, 247);
     height: 200px;
     width: 300px;
+    
     padding: 30px 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     }
     .cuadradonaranja {
     background-color: orange;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 40px;
+    }
+    .barragris4 {
+    background-color: grey;
+    height: 15px;
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .barragrisc10 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .barragrisc11 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 180px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .barragrisc12 {
+    background-color: lightgrey;
+    height: 10px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
     footer {
     background-color: gray;
     padding: 100px 0px;
     display: flex;
+    justify-content: space-between;
+    align-items: center
+    }
+    .artfoot1 {
+    background-color: gold;
+    height: 50px;
+    width: 100px;
+    margin-right: 125px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: start;
+    }
+    .footer1-1 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer1-2 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer1-3 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer1-4 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .artfoot2 {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    margin-right: 125px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    }
+    .footer2-1 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer2-2 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer2-3 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer2-4 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .artfoot3 {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    margin-right: 125px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    }
+    .footer3-1 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer3-2 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer3-3 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer3-4 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .artfoot4 {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    margin-right: 125px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    }
+    .footer4-1 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer4-2 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer4-3 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    }
+    .footer4-4 {
+    background-color: lightgrey;
+    height: 6px;
+    width: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     }
